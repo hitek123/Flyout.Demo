@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/CertificateLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0c0c0cff"
+        android:padding="20dip"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/PanelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Panel Name"
+            android:textSize="24dip" />
+        <TextView
+            android:id="@+id/PanelType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Panel Type"
+            android:textSize="18dip" />
+        <TextView
+            android:id="@+id/ValidDateRange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Valid 5/13/2013 - 12/31/2035"
+            android:textSize="18dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/CertificateLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dip"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/Passcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dip"
+            android:inputType="number"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:password="true"
+            android:hint="passcode" />
+        <Button
+            android:id="@+id/ConnectButton"
+            android:background="@drawable/BoschButton"
+            style="@style/ButtonText"
+            android:text="Connect"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

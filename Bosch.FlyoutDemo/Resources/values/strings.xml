@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">Bosch.FlyoutDemo</string>
+  <string name="fragment1">Fragment 1</string>
+  <string name="fragment2">Fragment 2</string>
+  <string name="Connect">Connect</string>
+  <string name="DealerInfo">Dealer info</string>
+  <string name="Demo">Demo</string>
+  <string name="AboutApp">About app</string>
+  <string name="drawer_open">Open</string>
+  <string name="drawer_close">Close</string>
+  <string name="DisconnectMessage">"Are you sure you want to Disconnect?"</string>
+  <string name="DisconnectCaption">"Disconnect?"</string>
+  <string name="DisconnectScreenMessage">You have been connected for</string>
+  <string name="DisconnectNowButton">Disconnect Now</string>
+
+</resources>

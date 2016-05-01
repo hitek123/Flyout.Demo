@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center">
+    <TextView
+        android:text="@string/DisconnectScreenMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center_horizontal"
+        android:paddingBottom="15dip" />
+    <TextView
+        android:text="12:34"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ElapsedTime"
+        android:gravity="center_horizontal"
+        android:textSize="64dip" />
+    <Button
+        android:background="@drawable/BoschRedButton"
+        style="@style/ButtonText"
+        android:text="@string/DisconnectNowButton"
+        android:layout_height="wrap_content"
+        android:id="@+id/DisconnectButton"
+        android:layout_marginLeft="50dip"
+        android:layout_marginRight="50dip"
+        android:layout_width="250dip" />
+</LinearLayout>

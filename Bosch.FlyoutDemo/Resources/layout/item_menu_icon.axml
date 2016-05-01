@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/drawer_item_padding"
+    android:paddingRight="@dimen/drawer_item_padding"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:minHeight="?android:attr/listPreferredItemHeight">
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:gravity="center_vertical"
+        android:src="@drawable/ic_action_help_dark"
+        android:layout_gravity="center_vertical" />
+    <TextView
+        android:id="@+id/text1"
+        android:text="Menu item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/drawer_item_padding"
+        android:paddingRight="@dimen/drawer_item_padding"
+        android:textColor="#fff"
+        android:singleLine="true"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:layout_weight="1" />
+    <TextView
+        android:id="@+id/count"
+        android:text="8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/count"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:padding="0dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>
